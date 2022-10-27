@@ -30,17 +30,16 @@
     opacity: 0;
 }
 
-/*
 .ex-5-square{
     transition: linear 0.5s;
 }
 
-.ex-5-square:hover {
+.ex-5-square:hover{
+    height: 120px;
+    width: 120px;
     margin: 0px;
-    width: 100px;
-    height: 100px;
-}
-*/
+}    
+
 
 .ex-6-img{
     transition: 0s;
@@ -80,19 +79,20 @@
 }
 */
 
-.ex-10-icon{
-    animation: rotate 1s linear infinite;
+.ex-10-icon {
+    animation: spin-animation 1s linear infinite;
+    display: inline-block;
 }
 
-@keyframes rotate {
-    from{
+@keyframes spin-animation {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
         transform: rotate(0deg);
     }
-    to{
-        transform: rotate(-360deg);
-    }
 }
-
 
 .ex-11-icon:hover{
     animation: rotate 2s linear;
@@ -109,6 +109,8 @@
         transform: rotate(0deg);
     }
 }
+
+
 
 
 
