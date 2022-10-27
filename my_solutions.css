@@ -108,47 +108,56 @@
     }
 }
 
-/*
+
+
+
+
+
 .ex-12-button:hover .ex-12-top-white {
-    animation: right_to_left 1s alternate infinite;
+    animation: right_to_left 3s alternate linear;
   }
 
-@keyframes right_to_left{
-    0%{
+  @keyframes right_to_left {
+    0% {left: 10%;}
+    50% {left: 70%;}
+    100% {left: 10%;}
+}
 
-    }
-    100% {
-
-    }
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: left_to_right 3s alternate linear;
   }
 
-.ex-12-bottom-white {
-    animation: left_to_right 1s alternate infinite;
+  @keyframes left_to_right {
+    0% {right: 20%;}
+    50% {right: 70%;}
+    100% {right: 20%;}
+}
+
+
+.ex-13-button:hover .ex-13-top-white {
+
+    animation: clockwise 4s;
   }
 
-
-  @keyframes r_to_left{
-    0%{
-      left: 100px;
-    }
-    100% {
-      left: 0;
-    }
+  @keyframes clockwise {
+    0%   {left: 10%; top: -10px;}
+    20%  {left: 85%; top: -10px;}
+    40%  {left: 85%; top: +55px}
+    60%  {left: -10%; top: +55px;}
+    80%  {left: -10%; top: -10px;}
+    100% {left: 10%; top: -10px;}
   }
 
+  .ex-13-button:hover .ex-13-bottom-white {
 
-
-  .ex-13-button:hover .ex-13-top-white {
-
-    animation: circle-slide 4s 2 alternate;
+    animation: counterclockwise 4s;
   }
 
-  @keyframes circle-slide {
-    0%   {left: 0; top: 0;}
-    25%  {left: 100%; top: 0;}
-    50%  {left: 100%; top: 100%;}
-    75%  {left: 0; top: 100%;}
-    100% {left: 0; top: 0;}
+  @keyframes counterclockwise {
+    0%   {right: 20%; bottom: -10px;}
+    20%  {right: 85%; bottom: -10px;}
+    40%  {right: 85%; bottom: +55px}
+    60%  {right: -20%; bottom: +55px;}
+    80%  {right: -20%; bottom: -10px;}
+    100% {right: 20%; bottom: -10px;}
   }
-
-  */
