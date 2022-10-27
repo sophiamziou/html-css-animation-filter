@@ -30,6 +30,18 @@
     opacity: 0;
 }
 
+/*
+.ex-5-square{
+    transition: linear 0.5s;
+}
+
+.ex-5-square:hover {
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+}
+*/
+
 .ex-6-img{
     transition: 0s;
 }
@@ -54,3 +66,30 @@
     filter: grayscale(50%) sepia(50%);
     border-radius: 25px;
 }
+
+.ex-9-img{
+    transition: 3s;
+}
+
+/*
+.ex-9-img:hover {
+    margin: 0;
+    width: 600px;
+    filter: grayscale(50%) sepia(50%);
+    border-radius: 25px;
+}
+*/
+
+.ex-10-icon{
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
