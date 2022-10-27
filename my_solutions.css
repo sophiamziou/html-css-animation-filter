@@ -30,16 +30,17 @@
     opacity: 0;
 }
 
-.ex-5-square{
-    transition: linear 0.5s;
+.ex-5-square {
+    transition: 2s;
 }
 
-.ex-5-square:hover{
-    height: 120px;
-    width: 120px;
-    margin: 0px;
-}    
+.ex-5-square:hover {
+    transform: scale(2, 2);
+}
 
+.ex-5-square:active {
+    transform: scale(0.5, 0.5);
+}
 
 .ex-6-img{
     transition: 0s;
@@ -66,18 +67,15 @@
     border-radius: 25px;
 }
 
-.ex-9-img{
-    transition: 3s;
+.ex-9-img {
+    transition: 2s;
 }
 
-/*
 .ex-9-img:hover {
-    margin: 0;
-    width: 600px;
+    transform: scale(1.5, 1.5);
     filter: grayscale(50%) sepia(50%);
     border-radius: 25px;
 }
-*/
 
 .ex-10-icon {
     animation: spin-animation 1s linear infinite;
@@ -110,7 +108,47 @@
     }
 }
 
+/*
+.ex-12-button:hover .ex-12-top-white {
+    animation: right_to_left 1s alternate infinite;
+  }
+
+@keyframes right_to_left{
+    0%{
+
+    }
+    100% {
+
+    }
+  }
+
+.ex-12-bottom-white {
+    animation: left_to_right 1s alternate infinite;
+  }
+
+
+  @keyframes r_to_left{
+    0%{
+      left: 100px;
+    }
+    100% {
+      left: 0;
+    }
+  }
 
 
 
+  .ex-13-button:hover .ex-13-top-white {
 
+    animation: circle-slide 4s 2 alternate;
+  }
+
+  @keyframes circle-slide {
+    0%   {left: 0; top: 0;}
+    25%  {left: 100%; top: 0;}
+    50%  {left: 100%; top: 100%;}
+    75%  {left: 0; top: 100%;}
+    100% {left: 0; top: 0;}
+  }
+
+  */
