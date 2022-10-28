@@ -1,3 +1,4 @@
+/* EXERCISE 1 */
 .ex-1-square{
     transition: background-color 2s linear;
 }
@@ -6,6 +7,7 @@
     background-color: red;
 }
 
+/* EXERCISE 2 */
 .ex-2-square{
     transition: width 3s;
 }
@@ -14,6 +16,7 @@
     width: 100%;
 }
 
+/* EXERCISE 3 */
 .ex-3-square{
     transition: border-radius 1s;
 }
@@ -22,6 +25,7 @@
     border-radius: 50%;
 }
 
+/* EXERCISE 4 */
 .ex-4-square{
     transition: opacity 1s linear;
 }
@@ -30,6 +34,7 @@
     opacity: 0;
 }
 
+/* EXERCISE 5 */
 .ex-5-square {
     transition: 2s;
 }
@@ -42,6 +47,7 @@
     transform: scale(0.5, 0.5);
 }
 
+/* EXERCISE 6 */
 .ex-6-img{
     transition: 0s;
 }
@@ -50,6 +56,7 @@
     filter: grayscale(100%);
 }
 
+/* EXERCISE 7 */
 .ex-7-img{
     transition: 3s;
 }
@@ -58,6 +65,7 @@
     filter: grayscale(100%) sepia(50%);
 }
 
+/* EXERCISE 8 */
 .ex-8-img{
     transition: 3s;
 }
@@ -67,6 +75,7 @@
     border-radius: 25px;
 }
 
+/* EXERCISE 9 */
 .ex-9-img {
     transition: 2s;
 }
@@ -77,6 +86,7 @@
     border-radius: 25px;
 }
 
+/* EXERCISE 10 */
 .ex-10-icon {
     animation: spin-animation 1s linear infinite;
     display: inline-block;
@@ -92,6 +102,7 @@
     }
 }
 
+/* EXERCISE 11 */
 .ex-11-icon:hover{
     animation: rotate 2s linear;
 }
@@ -108,11 +119,7 @@
     }
 }
 
-
-
-
-
-
+/* EXERCISE 12 */
 .ex-12-button:hover .ex-12-top-white {
     animation: right_to_left 3s alternate linear;
   }
@@ -133,10 +140,10 @@
     100% {right: 20%;}
 }
 
-
+/* EXERCISE 13 */
 .ex-13-button:hover .ex-13-top-white {
 
-    animation: clockwise 4s;
+    animation: clockwise 2s linear;
   }
 
   @keyframes clockwise {
@@ -150,7 +157,7 @@
 
   .ex-13-button:hover .ex-13-bottom-white {
 
-    animation: counterclockwise 4s;
+    animation: counterclockwise 2s linear; 
   }
 
   @keyframes counterclockwise {
