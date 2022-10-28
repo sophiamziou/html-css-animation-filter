@@ -140,12 +140,12 @@
   }
 
   @keyframes clockwise {
-    0%   {left: 10%; top: -10px;}
-    20%  {left: 85%; top: -10px;}
-    40%  {left: 85%; top: +55px}
-    60%  {left: -10%; top: +55px;}
-    80%  {left: -10%; top: -10px;}
-    100% {left: 10%; top: -10px;}
+    0%   {left: 10%; top: -15%;}
+    20%  {left: 85%; top: -15%;}
+    40%  {left: 85%; top: 85%}
+    60%  {left: -10%; top: 85%;}
+    80%  {left: -10%; top: -15%;}
+    100% {left: 10%; top: -15%;}
   }
 
   .ex-13-button:hover .ex-13-bottom-white {
@@ -154,10 +154,10 @@
   }
 
   @keyframes counterclockwise {
-    0%   {right: 20%; bottom: -10px;}
-    20%  {right: 85%; bottom: -10px;}
-    40%  {right: 85%; bottom: +55px}
-    60%  {right: -20%; bottom: +55px;}
-    80%  {right: -20%; bottom: -10px;}
-    100% {right: 20%; bottom: -10px;}
+    0%   {right: 20%; bottom: -15%;}
+    20%  {right: 85%; bottom: -15%;}
+    40%  {right: 85%; bottom: 85%}
+    60%  {right: -20%; bottom: 85%;}
+    80%  {right: -20%; bottom: -15%;}
+    100% {right: 20%; bottom: -15%;}
   }
